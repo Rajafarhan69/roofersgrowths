@@ -22,5 +22,5 @@ jobs:
           REMOTE_USER: ${{ secrets.SSH_USER }}
           TARGET: ${{ secrets.SSH_TARGET_DIR }}
           SOURCE: ""
-          EXCLUDE: "/.git/, /.github/, .gitignore"
+          EXCLUDE: "/.git/, /.github/, .gitignore, /seo-ops/"
           ARGS: "-rlzc -i --delete"
