@@ -15,8 +15,10 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 - 60-day phased roadmap (`05-roadmap-60-day.md`)
 - GA4 (`G-Q7QQZJX79S`) confirmed live sitewide
 
+**User decisions confirmed same day:**
+- Primary keywords locked: "roofing marketing agency" + "roofing lead generation"
+- Service scope locked: only the 7 existing service pages — no speculative pages for unconfirmed services
+
 **Not yet done (top of Phase 1 backlog for next session):**
 - Search Console verification + sitemap submission
 - Bing Webmaster Tools verification
-- User confirmation on the two proposed primary keywords
-- User answer on which services are genuinely sellable (scopes location/service page buildout)

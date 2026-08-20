@@ -41,8 +41,8 @@ Internal working document. Not deployed (excluded in deploy.yml). Updated as sta
 - No dedicated pages yet for: social media marketing, content marketing, reputation management, marketing automation, AI automation — all named in the master prompt as candidate services. **Decision needed:** only build these if genuinely offered as services (see Open Questions).
 - No author/expertise (Person schema exists only on homepage, not attached to blog posts).
 
-## Open questions (need user input before building)
+## Decisions — CONFIRMED 2026-08-21
 
-1. Does Roofers Growths actually offer social media marketing, content marketing, reputation management, marketing automation, or AI automation as sellable services today, or only the 7 already live? Building pages for services not actually sold would violate the "no fake claims" rule.
-2. Confirm the two primary keyword targets — see `01-keyword-research.md` for the recommended pair and reasoning.
-3. Confirm priority order for location pages — see `02-location-strategy.md` for the proposed market list.
+1. **Service scope:** only the 7 services already live get dedicated pages (roofing SEO, marketing agency, Google Ads, website design, local SEO, lead generation, AI search optimization). No pages for social media marketing, content marketing, reputation management, marketing automation, or AI automation unless the user confirms those are genuinely sold — do not build these speculatively.
+2. **Primary keyword targets:** "roofing marketing agency" + "roofing lead generation" — see `01-keyword-research.md`.
+3. Location page priority order stands as proposed in `02-location-strategy.md` (Houston → DFW → Miami → Tampa/Orlando as Tier 1).

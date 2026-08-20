@@ -15,14 +15,12 @@ The "roofing marketing" niche is more contested than it looks. Two tiers of comp
 
 **Implication:** "roofing SEO" alone is a crowded head term with multiple entrenched niche competitors already ranking. "roofing marketing agency" has a bit more room and matches the site's own core positioning ("marketing for roofing contractors only, nobody else").
 
-## Recommended two primary keyword targets
+## Two primary keyword targets — CONFIRMED 2026-08-21
 
 1. **"roofing marketing agency"** — matches the homepage title/H1 and dedicated service page already built; strongest match to actual site positioning; realistic to move in 60 days with topical depth + internal linking.
 2. **"roofing lead generation"** — high commercial intent, slightly less entrenched than "roofing SEO," and matches an existing dedicated page + the pricing/ROI framing the site already leads with.
 
 Backup/3rd candidate if the above underperform after 30 days: **"roofing digital marketing"** (broader net, still niche-relevant, currently no dedicated page — would need one).
-
-**These are proposed, not final — confirm before Day 1 execution locks in around them.**
 
 ## Supporting keyword clusters (feed the two primary terms)
 
