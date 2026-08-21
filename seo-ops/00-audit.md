@@ -11,13 +11,14 @@ Internal working document. Not deployed (excluded in deploy.yml). Updated as sta
 | robots.txt | ✅ | Explicitly allows GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot, ChatGPT-User, Claude-User, Google-Extended, Applebot-Extended, Bingbot |
 | sitemap.xml | ✅ | 24 URLs, matches live pages exactly |
 | GA4 | ✅ | `G-Q7QQZJX79S`, installed sitewide 2026-08-20 |
-| Search Console | ⬜ | Not yet verified — top priority, no query/impression data exists until this is done |
-| Bing Webmaster Tools | ⬜ | Not yet verified |
+| Search Console | ✅ | Verified 2026-08-21. No meaningful query/impression data yet — takes days to accumulate |
+| Bing Webmaster Tools | ✅ | Verified 2026-08-21 |
 | Canonicals | ⬜ | Not yet audited page-by-page |
-| Schema | ✅ partial | ProfessionalService + Person on homepage; FAQPage on 8 pages (home, pricing, and all 7 service pages). No BreadcrumbList, no Article/BlogPosting schema on the 1 published blog post yet |
-| Core Web Vitals / PageSpeed | ⬜ | Not yet measured post-deploy |
-| Image alt text | ⬜ | Not yet audited |
-| Open Graph | partial | `og-image.jpg` exists; per-page OG tags not yet audited |
+| Schema | ✅ | ProfessionalService (with logo) + Person on every page; FAQPage on 8 pages; Article schema (with image) on blog post + all 5 case studies; BreadcrumbList on all 23 non-homepage pages (added 2026-08-21) |
+| Core Web Vitals / PageSpeed | partial | Public PageSpeed API is quota-blocked in this environment (needs a personal Google Cloud API key to run). Proxy check done instead: homepage HTML 23.4KB, style.css 36.5KB, main.js 7.3KB — lean. main.js correctly placed before `</body>`, not render-blocking. TTFB ~0.8s — a bit high for static hosting, worth watching, not yet diagnosed |
+| Image alt text | ✅ | Audited 2026-08-21 — zero images missing alt sitewide |
+| Open Graph | ✅ | Audited 2026-08-21 — og:title present on every page |
+| FAQ rich results | ⚠️ note | Google fully removed FAQ rich results from Search as of May 2026 (not just restricted — gone entirely). FAQPage schema is still worth keeping: Google still parses it to understand page content, and it feeds GEO/AI-answer-engine extraction, but it will not produce the expandable snippet in Google results anymore. Don't expect that visual in Search Console. |
 | 404 handling | ✅ | Custom `404.html` via `ErrorDocument 404` |
 | Compression / caching | ✅ | mod_deflate + mod_expires configured in `.htaccess` |
 
