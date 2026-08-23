@@ -11,7 +11,7 @@ Each of the 7 existing service pages is a pillar. Blog posts are cluster content
 - What a roofing SEO case study should actually prove (link to case-studies/)
 
 ### Pillar: roofing-marketing-agency/
-- How to vet a roofing marketing agency before signing a contract
+- ✅ How to vet a roofing marketing agency before signing a contract — published 2026-08-23
 - Agency vs. in-house marketing hire — real cost comparison for a roofing contractor
 - Questions to ask a roofing marketing agency before paying a retainer
 

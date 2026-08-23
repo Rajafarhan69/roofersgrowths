@@ -53,7 +53,24 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 5. Validated all JSON-LD sitewide still parses cleanly after changes.
 
 **Not yet done (top of Phase 1 backlog for next session):**
-- Manual sitemap submission in GSC and Bing Webmaster UI (user action, ~1 minute each)
 - Rich Results Test spot-check on 1-2 URLs (user action — needs browser, not scriptable)
 - Real Core Web Vitals baseline once a personal PageSpeed API key is available, or first GSC Core Web Vitals report once enough data accumulates
-- First real GSC query/impression data pull, once it accumulates (verified today — expect nothing meaningful for several more days)
+- First real GSC query/impression data pull, once it accumulates (verified 2026-08-21 — expect nothing meaningful for several more days)
+
+---
+
+## 2026-08-23 — First Phase 2 content: sitemap confirmed submitted, first new blog post published
+
+**User confirmed:** sitemap submitted in GSC (and Bing, per earlier confirmation).
+
+**Completed:**
+1. Wrote and published the second blog post: **"How to vet a roofing marketing agency before you sign"** at `/blog/how-to-vet-a-roofing-marketing-agency/` — targets the primary "roofing marketing agency" pillar with vendor-research/commercial intent, a real content gap (no vetting-questions guide existed). Five genuine, non-fabricated questions (lead definition, asset ownership, dashboard access, contract terms, exclusivity) tied back to the site's existing transparency positioning (how-we-report-results, case studies).
+2. Linked the new post from: the roofing-marketing-agency/ pillar page (natural insertion in the "What we will tell you before you hire us" section), and the blog hub (now lists newest-first).
+3. Added to sitemap.xml with correct lastmod.
+4. Full Article + BreadcrumbList schema on the new post, following the exact pattern established on the first post. Validated all 73 JSON-LD blocks sitewide still parse cleanly after publishing.
+5. Verified live: 200 status, correct H1, internal link resolves, sitemap entry live.
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- Next blog post candidate: something under the "roofing lead generation" primary pillar (the other confirmed primary keyword), per `03-topical-map.md`

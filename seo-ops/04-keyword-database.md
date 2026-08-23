@@ -13,5 +13,6 @@ Living tracker. Update `Current Position` / `Impressions` / `Clicks` / `CTR` fro
 | ai search optimization for roofers | Commercial / GEO | /roofing-ai-search-optimization/ | Not yet tracked | Top 15 | — | — | — | Live | Homepage, nav |
 | what does a roofing lead cost | Informational | /blog/what-a-roofing-lead-actually-costs/ | Not yet tracked | Top 10 | — | — | — | Live | Blog hub, lead-gen page |
 | roofing marketing agency pricing | Commercial | /pricing/ | Not yet tracked | Top 20 | — | — | — | Live | Nav, homepage |
+| how to vet a roofing marketing agency | Commercial / vendor research | /blog/how-to-vet-a-roofing-marketing-agency/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-08-23) | Pillar page, blog hub |
 
 **Update cadence:** whenever a "Do today's tasks" session touches a page, update its row. Once GSC is verified, backfill real position/impression/click/CTR data instead of leaving dashes.
