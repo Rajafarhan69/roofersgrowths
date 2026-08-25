@@ -16,7 +16,7 @@ Each of the 7 existing service pages is a pillar. Blog posts are cluster content
 - Questions to ask a roofing marketing agency before paying a retainer
 
 ### Pillar: roofing-lead-generation/
-- Buying roofing leads vs. generating your own — the real math
+- ✅ Buying roofing leads vs. generating your own — the real math — published 2026-08-25
 - Exclusive vs. shared roofing leads: what changes in close rate
 - What a roofing lead actually costs (live) — expand with a follow-up on lead quality scoring
 

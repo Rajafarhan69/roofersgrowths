@@ -73,4 +73,22 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 **Not yet done (top of backlog for next session):**
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates
-- Next blog post candidate: something under the "roofing lead generation" primary pillar (the other confirmed primary keyword), per `03-topical-map.md`
+
+---
+
+## 2026-08-25 — Third blog post; both primary pillars now have supporting content
+
+**Performance check:** real GSC/GA4/Bing API data still not accessible from this environment (no OAuth credentials configured) — checked a `site:roofersgrowths.com` web search instead as a rough indexing signal; the case-studies page is confirmed indexed. PageSpeed Insights public API is still quota-blocked (0 daily quota without a personal API key) — retried, no change, not worth retrying every session; needs the user's own Google Cloud API key or waiting for GSC's own Core Web Vitals report to populate.
+
+**Completed:**
+1. Published the third blog post: **"Buying roofing leads vs. generating your own: the real math"** at `/blog/buying-roofing-leads-vs-generating-your-own/` — targets the "roofing lead generation" primary pillar (the second confirmed primary keyword), comparison intent. Both primary pillars now have at least one supporting post.
+2. Linked from the roofing-lead-generation/ pillar page's existing FAQ ("Should I buy roofing leads?" already made this exact point — added the link there rather than forcing an artificial mention elsewhere), and from the blog hub.
+3. Cross-linked in both directions with the existing "what a roofing lead actually costs" post (it already linked out; added the missing link back in, updated its `dateModified` and sitemap `lastmod` to match).
+4. Added to sitemap.xml. Validated all 76 JSON-LD blocks sitewide still parse cleanly. Verified live: 200 status, correct H1, both internal links resolve, sitemap entries live.
+5. Caught and fixed my own mistake mid-session: the first draft of this post got truncated on write (cut off mid-attribute). Caught it before publishing by reading the file back, rewrote it complete, verified `</html>` closes exactly once before shipping.
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- Remaining 5 service pillars (roofing-seo, roofing-google-ads, roofing-website-design, roofing-local-seo, roofing-ai-search-optimization) still have zero supporting blog content — candidates per `03-topical-map.md`
+- Location pages (Phase 3) not yet started — still gated on the two primary pillars having enough depth first, per the roadmap
