@@ -5,7 +5,7 @@
 Each of the 7 existing service pages is a pillar. Blog posts are cluster content that link up to their pillar and across to related posts. No post gets written without a real pillar to attach to.
 
 ### Pillar: roofing-seo/
-- Roofing SEO cost — what it actually runs and why (companion to the existing lead-cost post)
+- ✅ What roofing SEO actually costs, and why — published 2026-08-27
 - Roofing SEO vs. Google Ads — which one first, and when to run both
 - Common roofing SEO mistakes that waste a contractor's budget
 - What a roofing SEO case study should actually prove (link to case-studies/)

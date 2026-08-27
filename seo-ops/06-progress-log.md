@@ -90,5 +90,20 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 **Not yet done (top of backlog for next session):**
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates
-- Remaining 5 service pillars (roofing-seo, roofing-google-ads, roofing-website-design, roofing-local-seo, roofing-ai-search-optimization) still have zero supporting blog content — candidates per `03-topical-map.md`
-- Location pages (Phase 3) not yet started — still gated on the two primary pillars having enough depth first, per the roadmap
+- 4 service pillars (roofing-google-ads, roofing-website-design, roofing-local-seo, roofing-ai-search-optimization) still have zero supporting blog content
+- Location pages (Phase 3) not yet started — still gated on primary-pillar depth per the roadmap
+
+---
+
+## 2026-08-27 — Fourth blog post (roofing-seo pillar); found and fixed a real schema bug
+
+**Completed:**
+1. Published **"What roofing SEO actually costs, and why"** at `/blog/what-roofing-seo-actually-costs/` — targets the roofing-seo pillar, grounded in the real published pricing tiers ($599/$899/$1,199), no invented numbers. Linked from the roofing-seo FAQ, the pricing page's existing "why cheap SEO does not work" section, and the blog hub.
+2. **Found and fixed a real bug while reviewing FAQ schema for this post:** 5 instances of literal `—` (escaped em dash) remained in FAQPage JSON-LD text across `index.html`, `roofing-seo/`, `roofing-local-seo/`, and `roofing-ai-search-optimization/`. The original sitewide em-dash removal (done in an earlier session) only rewrote visible HTML text — it missed these schema strings entirely, meaning Google and AI crawlers reading the structured data directly were still seeing em dashes the user explicitly asked to remove everywhere. Rewrote each to match the already-fixed visible-text phrasing exactly, verified zero remain sitewide.
+3. Validated all 79 JSON-LD blocks sitewide still parse cleanly. Verified live: 200 status, correct H1, all links resolve, schema fix confirmed live.
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- 4 service pillars (roofing-google-ads, roofing-website-design, roofing-local-seo, roofing-ai-search-optimization) still have zero supporting blog content
+- Location pages (Phase 3) not yet started
