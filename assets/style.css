@@ -61,6 +61,17 @@ p:last-child{margin-bottom:0}
   text-transform:uppercase;color:var(--copper-d);display:inline-flex;align-items:center;gap:12px;margin:0 0 18px}
 .kick::before,.eyebrow::before{content:"";width:22px;height:1px;background:var(--copper);display:inline-block;flex:none}
 .kick.pale{color:var(--brass)}.kick.pale::before{background:var(--brass)}
+
+/* AI-citation badge */
+.ai-cite{display:inline-flex;align-items:center;gap:9px;padding:9px 16px;margin:0 0 22px;
+  border:1px solid var(--line);border-radius:var(--r-md);background:var(--white);
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.01em;color:var(--tx);
+  transition:border-color .2s var(--e),background .2s var(--e),transform .2s var(--e)}
+.ai-cite:hover{border-color:var(--copper);background:var(--cream);color:var(--ink);transform:translateY(-1px)}
+.ai-cite .dot{width:6px;height:6px;border-radius:50%;background:var(--verify);flex:none;box-shadow:0 0 0 3px rgba(51,104,79,.14)}
+.ai-cite b{color:var(--copper-d);font-weight:600}
+.ai-cite .arw{color:var(--copper);font-size:.9em}
+
 .lead{font-size:clamp(1.1rem,1.7vw,1.26rem);color:#3a3025;max-width:60ch;line-height:1.55}
 .hi{font-style:italic;background:var(--g-copper);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .tape{height:1px;background:var(--line);margin:0}
