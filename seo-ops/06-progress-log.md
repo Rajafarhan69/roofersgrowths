@@ -107,3 +107,23 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 - First real GSC query/impression pull once data accumulates
 - 4 service pillars (roofing-google-ads, roofing-website-design, roofing-local-seo, roofing-ai-search-optimization) still have zero supporting blog content
 - Location pages (Phase 3) not yet started
+
+---
+
+## 2026-08-28 — Real GEO win: Google AI Mode citation, showcased sitewide
+
+**User-initiated:** user found a real Google AI Mode result (dated screenshot) citing roofersgrowths.com as the top, detailed answer for "best marketing agency for roofers in United States," and asked to feature it on the site.
+
+**Completed:**
+1. Published `/blog/googles-ai-mode-is-recommending-roofers-growths/` with the real screenshot embedded (processed: cropped browser chrome, converted to webp, saved as `assets/img/google-ai-mode-citation.webp`). Framed deliberately as a dated, point-in-time result, not a permanent guarantee — explicit paragraph in the post says AI Mode answers aren't static and this citation isn't promised to persist. Matters because the master prompt's rules explicitly forbid guaranteed-ranking-style claims.
+2. Added a new reusable `.ai-cite` badge component to `style.css` (matches existing design tokens, no ad-hoc styling) and placed it: (a) at the very top of the homepage hero, above the H1, per the user's explicit request for top-of-page placement; (b) on `/roofing-ai-search-optimization/` right under the page's CTA, since this is literally proof the service the page sells actually works.
+3. Both placements are dated ("August 2026") and link through to the full post rather than asserting the citation as an evergreen fact.
+4. Added to sitemap.xml (priority 0.7, slightly above standard blog posts given its homepage prominence).
+5. Deploy hit a transient SSH connection timeout on first push (`ssh: connect to host *** port ***: Connection timed out`) — retried via `workflow_dispatch` and it succeeded in 9s, confirming it was a one-off network blip, not a config regression. Verified live: post (200), image (200), both badges present in the live HTML.
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- 4 service pillars still have zero supporting blog content
+- Location pages (Phase 3) not yet started
+- Consider re-checking the AI Mode citation periodically (e.g. monthly) since it could change — if it stops citing us, the homepage badge and service-page callout should be reconsidered
