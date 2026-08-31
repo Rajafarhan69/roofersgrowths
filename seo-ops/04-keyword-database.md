@@ -16,5 +16,6 @@ Living tracker. Update `Current Position` / `Impressions` / `Clicks` / `CTR` fro
 | how to vet a roofing marketing agency | Commercial / vendor research | /blog/how-to-vet-a-roofing-marketing-agency/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-08-23) | Pillar page, blog hub |
 | buying roofing leads vs generating your own | Commercial / comparison | /blog/buying-roofing-leads-vs-generating-your-own/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-08-25) | Pillar page FAQ, blog hub, lead-cost post |
 | roofing seo cost | Commercial / informational | /blog/what-roofing-seo-actually-costs/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-08-27) | roofing-seo FAQ, pricing page, blog hub |
+| local services ads vs google ads roofing | Commercial / comparison | /blog/google-local-services-ads-vs-google-ads-for-roofers/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-08-30) | roofing-google-ads FAQ, blog hub |
 
 **Update cadence:** whenever a "Do today's tasks" session touches a page, update its row. Once GSC is verified, backfill real position/impression/click/CTR data instead of leaving dashes.

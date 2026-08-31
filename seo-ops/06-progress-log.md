@@ -127,3 +127,24 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 - 4 service pillars still have zero supporting blog content
 - Location pages (Phase 3) not yet started
 - Consider re-checking the AI Mode citation periodically (e.g. monthly) since it could change — if it stops citing us, the homepage badge and service-page callout should be reconsidered
+
+---
+
+## 2026-08-31 — Homepage AI-citation section redesigned; fifth blog post (roofing-google-ads pillar)
+
+**User feedback:** the small inline `.ai-cite` badge crammed into the hero "looked bad." Replaced it with a dedicated homepage section, right after the hero/ticker, reusing the existing two-column `.stmt` layout (same pattern as the "difference" section) so it matches the rest of the page. Full screenshot shown alongside the copy, same dated/honest framing kept. Removed the cramped hero badge entirely; kept the same badge component on the roofing-ai-search-optimization page since that placement wasn't flagged as a problem.
+
+**Performance check:** `site:roofersgrowths.com` still surfaces only the case-studies page via this proxy check — no visible change since the last check. Not a precise signal (this WebSearch tool isn't a true `site:` operator), but nothing to report either way. Still waiting on real GSC data to accumulate.
+
+**Completed:**
+1. Redesigned the homepage AI-citation placement per user feedback (see above).
+2. Published the fifth blog post: **"Google Local Services Ads vs. Google Ads for roofers"** — first supporting content for the roofing-google-ads pillar. Grounded in the pillar's real published figures ($3,000-$5,000/mo budget floor, the existing "cheapest booked job in the account" LSA description) rather than inventing new numbers.
+3. Linked from the pillar's budget FAQ and the blog hub. Did not force a link into the terse "Local Service Ads" card description (same judgment call as an earlier session — card-grid copy is intentionally short, forcing a link there would hurt more than help).
+4. Validated all 85 JSON-LD blocks sitewide, verified live: 200 status, correct H1, link resolves, sitemap entry live.
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- 3 service pillars still have zero supporting blog content: roofing-website-design, roofing-local-seo, roofing-ai-search-optimization (the AI Mode post counts as a proof piece, not pillar-cluster content)
+- Location pages (Phase 3) not yet started
+- Continue periodic AI Mode citation re-check

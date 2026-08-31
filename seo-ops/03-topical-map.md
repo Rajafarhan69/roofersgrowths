@@ -22,7 +22,7 @@ Each of the 7 existing service pages is a pillar. Blog posts are cluster content
 
 ### Pillar: roofing-google-ads/
 - Roofing Google Ads budget: what to spend by market size
-- Google Local Services Ads vs. Google Ads for roofers
+- ✅ Google Local Services Ads vs. Google Ads for roofers — published 2026-08-30
 - Storm-season PPC: adjusting bids around weather events
 
 ### Pillar: roofing-website-design/
