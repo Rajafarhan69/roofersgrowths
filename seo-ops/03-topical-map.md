@@ -31,7 +31,7 @@ Each of the 7 existing service pages is a pillar. Blog posts are cluster content
 - Before/after: rebuilding a slow roofing site (tie to a real case study if available)
 
 ### Pillar: roofing-local-seo/
-- Google Business Profile optimization checklist for roofing contractors
+- ✅ Google Business Profile checklist for roofing contractors — published 2026-09-02
 - Getting into the Maps 3-pack as a roofing company
 - Review velocity strategy without fake reviews
 

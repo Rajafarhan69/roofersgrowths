@@ -148,3 +148,19 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 - 3 service pillars still have zero supporting blog content: roofing-website-design, roofing-local-seo, roofing-ai-search-optimization (the AI Mode post counts as a proof piece, not pillar-cluster content)
 - Location pages (Phase 3) not yet started
 - Continue periodic AI Mode citation re-check
+
+---
+
+## 2026-09-02 — Sixth blog post (roofing-local-seo pillar)
+
+**Completed:**
+1. Published **"Google Business Profile checklist for roofing contractors"** at `/blog/google-business-profile-checklist-for-roofers/` — first supporting content for the roofing-local-seo pillar. A genuine, actionable checklist (categories, service area honesty, photo cadence, review velocity, Q&A maintenance, suspension triggers), grounded in the pillar's existing proximity/service-area and review-velocity guidance rather than inventing new claims.
+2. Linked from the pillar's "How many reviews do I need?" FAQ and the blog hub.
+3. Validated all 88 JSON-LD blocks sitewide, verified live: 200 status, correct H1, link resolves, sitemap entry live.
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- 2 service pillars still have zero supporting blog content: roofing-website-design, roofing-ai-search-optimization
+- Location pages (Phase 3) not yet started
+- Continue periodic AI Mode citation re-check
