@@ -36,7 +36,7 @@ Each of the 7 existing service pages is a pillar. Blog posts are cluster content
 - Review velocity strategy without fake reviews
 
 ### Pillar: roofing-ai-search-optimization/
-- How ChatGPT and Google AI Overviews recommend roofing contractors
+- ✅ How ChatGPT and Google AI Overviews recommend roofing contractors — published 2026-09-04
 - What roofing contractors should do now to be cited by AI search
 - GEO vs. traditional SEO for a roofing business — do you need both
 

@@ -16,6 +16,7 @@ Internal working document. Not deployed (excluded in deploy.yml). Updated as sta
 | Canonicals | ⬜ | Not yet audited page-by-page |
 | Schema | ✅ | ProfessionalService (with logo) + Person on every page; FAQPage on 8 pages; Article schema (with image) on blog post + all 5 case studies; BreadcrumbList on all 23 non-homepage pages (added 2026-08-21) |
 | Core Web Vitals / PageSpeed | partial | Public PageSpeed API is quota-blocked in this environment (needs a personal Google Cloud API key to run). Proxy check done instead: homepage HTML 23.4KB, style.css 36.5KB, main.js 7.3KB — lean. main.js correctly placed before `</body>`, not render-blocking. TTFB ~0.8s — a bit high for static hosting, worth watching, not yet diagnosed |
+| Asset cache-busting | ✅ fixed 2026-09-02 | `.htaccess` caches CSS 1yr / JS 7d with no versioning, so a mid-session CSS change silently broke for anyone with a cached copy (visible bug: ai-demo form rendered unstyled). Fixed by adding `?v=20260903` to the shared `style.css`/`main.js` references on all pages. **Bump this version string whenever style.css or main.js changes** — it's the only way an edit actually reaches browsers that already cached the old file. |
 | Image alt text | ✅ | Audited 2026-08-21 — zero images missing alt sitewide |
 | Open Graph | ✅ | Audited 2026-08-21 — og:title present on every page |
 | FAQ rich results | ⚠️ note | Google fully removed FAQ rich results from Search as of May 2026 (not just restricted — gone entirely). FAQPage schema is still worth keeping: Google still parses it to understand page content, and it feeds GEO/AI-answer-engine extraction, but it will not produce the expandable snippet in Google results anymore. Don't expect that visual in Search Console. |
@@ -31,6 +32,7 @@ Internal working document. Not deployed (excluded in deploy.yml). Updated as sta
 - Pricing `/pricing/` — $599 / $899 / $1,199
 - Blog hub + 1 post: `what-a-roofing-lead-actually-costs`
 - Resources `/resources/` — 2 working calculators (lead value, SEO ROI)
+- `/ai-demo/` — interactive AI receptionist demo (call-me form), added 2026-09-02, not part of the blog content calendar but a real indexed page
 - Trust pages: `/about/`, `/about/rafero/`, `/how-we-report-results/`, `/editorial-policy/`
 - `/contact/` — GHL iframe embed
 

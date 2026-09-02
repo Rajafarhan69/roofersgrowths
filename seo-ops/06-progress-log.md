@@ -164,3 +164,29 @@ Append one entry per "Do today's tasks" session. Never delete prior entries — 
 - 2 service pillars still have zero supporting blog content: roofing-website-design, roofing-ai-search-optimization
 - Location pages (Phase 3) not yet started
 - Continue periodic AI Mode citation re-check
+
+---
+
+## 2026-09-02/03 — Out-of-band feature work: /ai-demo/ page (user-requested, not part of the SEO daily loop)
+
+Not part of "Do today's tasks" — a direct feature request. Logged here for continuity since it touches shared assets and site structure.
+
+- Built `/ai-demo/` — an AI receptionist call-me demo (form posts to an existing n8n webhook). Added to the header nav sitewide.
+- User feedback: the initial form UI (inline-styled) looked unpolished. Rebuilt with dedicated `.demo-panel`/`.demo-field` CSS components, added a "why this exists" section (cold sales calls vs. real customers) and a 3-point benefits section.
+- **Real bug found and fixed:** `.htaccess` caches `style.css` for a full year with zero cache-busting. A mid-session CSS edit silently broke for anyone who had visited before (the new form rendered completely unstyled). Fixed by versioning the shared `style.css`/`main.js` URLs (`?v=20260903`) sitewide — this is now a standing rule, see `00-audit.md`.
+- Linked `/ai-demo/` into `roofing-lead-generation/`'s "Speed to lead" section (genuine fit: an answered call matters as much as a fast one).
+
+## 2026-09-04 — Eighth blog post (roofing-ai-search-optimization pillar) — all 7 pillars now have supporting content
+
+**Completed:**
+1. Published **"How ChatGPT and Google AI Overviews recommend roofing contractors"** at `/blog/how-chatgpt-and-google-ai-overviews-recommend-roofers/` — last of the 7 service pillars to get supporting content. Expands on the pillar's existing "how AI decides who to recommend" section without duplicating it, and links to the real, dated AI Mode citation post as a live example rather than a hypothetical.
+2. Linked from the pillar's "worth optimising for yet" FAQ and the blog hub.
+3. Validated all 93 JSON-LD blocks sitewide, verified live: 200 status, correct H1, all links resolve, sitemap entry live.
+
+**Milestone:** 6 of 7 service pillars now have at least one supporting blog post (roofing-seo, roofing-marketing-agency, roofing-lead-generation, roofing-google-ads, roofing-local-seo, roofing-ai-search-optimization). Only roofing-website-design remains.
+
+**Not yet done (top of backlog for next session):**
+- roofing-website-design is the only pillar still without supporting blog content
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- Location pages (Phase 3) — good time to start now that pillar depth is solid
