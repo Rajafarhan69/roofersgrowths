@@ -42,7 +42,7 @@
     <a class="logo" href="/">
       <svg class="m" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#151009"/><path d="M6 18 16 9l10 9" stroke="url(#lg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 20v4h14v-4" stroke="#d59a4a" stroke-width="1.6" stroke-linecap="round"/><defs><linearGradient id="lg" x1="6" y1="9" x2="26" y2="18"><stop stop-color="#e0863f"/><stop offset="1" stop-color="#c05a29"/></linearGradient></defs></svg>
       Roofers Growths</a>
-    <div class="nlinks" id="nav"><a href="/services/">Services</a><a href="/resources/#tools">Tools</a><a href="/case-studies/">Proof</a><a href="/how-we-report-results/">How we count</a><a href="/pricing/">Pricing</a><a href="/about/">About</a></div>
+    <div class="nlinks" id="nav"><a href="/services/">Services</a><a href="/resources/#tools">Tools</a><a href="/ai-demo/" aria-current="page">AI Demo</a><a href="/case-studies/">Proof</a><a href="/how-we-report-results/">How we count</a><a href="/pricing/">Pricing</a><a href="/about/">About</a></div>
     <a class="ncta" href="/contact/"><span class="dot"></span>Book a free audit</a>
     <button class="burger" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span><span></span></button>
   </nav>
@@ -58,39 +58,75 @@
   </div>
 </section>
 
+<section class="pad">
+  <div class="wrap stmt">
+    <div class="l">
+      <p class="kick rv">Why this exists</p>
+      <p class="big rv-clip">Not every call to your office is <b>a customer.</b></p>
+    </div>
+    <div class="r rv">
+      <p>Solar companies, extended-warranty vendors, staffing agencies, and other marketing shops all have the same number you do, the one printed on your truck and your Google Business Profile. Every one of them is calling it too, competing for the same ring as a homeowner with an actual leak.</p>
+      <p>Answer the wrong call at the wrong moment and a real inspection request goes to voicemail, or to whichever competitor picked up first. <a href="/blog/what-a-roofing-lead-actually-costs/">Speed to lead</a> is the whole game, and a phone tied up with a cold pitch is a phone a real customer could not reach.</p>
+      <div class="stmt-card rv">
+        <span class="lab">What it actually does</span>
+        <p class="q">&ldquo;It answers every call the same way, day or night. A cold pitch gets handled and moved along. A homeowner asking about storm damage or a leak gets booked straight onto your calendar as a real inspection request.&rdquo;</p>
+        <p class="by">How the AI receptionist works</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="white">
   <div class="wrap">
-    <div class="narrow">
-      <div class="card" style="max-width:520px;margin:0 auto">
-        <span class="num">DEMO</span>
+    <div class="cards">
+      <div class="card"><span class="num">01</span><h3>Screens every call</h3><p>Sales pitches, robocalls, and vendor solicitations get handled and moved along instead of eating your afternoon.</p></div>
+      <div class="card"><span class="num">02</span><h3>Books real inspections</h3><p>A homeowner asking about a leak or storm damage goes straight onto your calendar, not to voicemail.</p></div>
+      <div class="card"><span class="num">03</span><h3>Never sleeps</h3><p>Answers at 11pm on a Saturday exactly the same way it answers at 9am on a Tuesday.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="narrow" style="max-width:480px;text-align:center">
+      <p class="eyebrow" style="justify-content:center">Try it now</p>
+      <h2 style="font-size:1.6rem">Hear it for yourself</h2>
+      <p class="lead" style="margin:8px auto 0;max-width:44ch">Enter your number below. The AI will call you within 30 seconds, the same way it would answer a real customer.</p>
+
+      <div class="demo-panel" style="margin-top:30px">
+        <span class="demo-kick">Live demo</span>
+        <h3 class="demo-title">Get your test call</h3>
 
         <form id="ai-demo-form" novalidate>
-          <div style="margin-top:20px;display:flex;flex-direction:column;gap:16px">
-            <div>
-              <label for="ad-name" style="display:block;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--tx-2);margin-bottom:7px">Name <span style="color:var(--copper-d)">*</span></label>
-              <input id="ad-name" name="name" type="text" required autocomplete="name" style="width:100%;font-family:var(--sans);font-size:1rem;border:1px solid var(--line);border-radius:var(--r-sm);padding:12px 14px;background:var(--bone);color:var(--ink)">
+          <div class="demo-row">
+            <div class="demo-field">
+              <label for="ad-name">Name <span class="req">*</span></label>
+              <input id="ad-name" name="name" type="text" required autocomplete="name" placeholder="Your name">
             </div>
-            <div>
-              <label for="ad-company" style="display:block;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--tx-2);margin-bottom:7px">Company <span style="color:var(--tx-2);text-transform:none;letter-spacing:0">(optional)</span></label>
-              <input id="ad-company" name="company" type="text" autocomplete="organization" style="width:100%;font-family:var(--sans);font-size:1rem;border:1px solid var(--line);border-radius:var(--r-sm);padding:12px 14px;background:var(--bone);color:var(--ink)">
-            </div>
-            <div>
-              <label for="ad-phone" style="display:block;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--tx-2);margin-bottom:7px">Phone number <span style="color:var(--copper-d)">*</span></label>
-              <input id="ad-phone" name="phone" type="tel" required autocomplete="tel" placeholder="(555) 123-4567" style="width:100%;font-family:var(--sans);font-size:1rem;border:1px solid var(--line);border-radius:var(--r-sm);padding:12px 14px;background:var(--bone);color:var(--ink)">
+            <div class="demo-field">
+              <label for="ad-company">Company <span class="opt">(optional)</span></label>
+              <input id="ad-company" name="company" type="text" autocomplete="organization" placeholder="Your company">
             </div>
           </div>
+          <div class="demo-field">
+            <label for="ad-phone">Phone number <span class="req">*</span></label>
+            <input id="ad-phone" name="phone" type="tel" required autocomplete="tel" placeholder="(555) 123-4567">
+          </div>
 
-          <p id="ad-error" role="alert" style="display:none;margin:14px 0 0;font-family:var(--sans);font-size:.88rem;color:var(--copper-d)"></p>
+          <p class="demo-error" id="ad-error" role="alert"></p>
 
-          <button type="submit" id="ad-submit" class="btn solid" style="width:100%;justify-content:center;margin-top:20px">
+          <button type="submit" id="ad-submit" class="btn solid demo-submit">
             <span id="ad-submit-label">Call Me Now &mdash; Test the AI</span>
           </button>
 
-          <p style="margin-top:16px;font-family:var(--sans);font-size:.76rem;line-height:1.5;color:var(--tx-2)">By submitting, you consent to receive one automated demonstration call from an AI voice agent at the number provided. Standard rates may apply.</p>
+          <p class="demo-trust"><span class="dot"></span>One call, to the number you enter, nothing stored beyond this demo</p>
+          <p class="demo-fine">By submitting, you consent to receive one automated demonstration call from an AI voice agent at the number provided. Standard rates may apply.</p>
         </form>
 
-        <div id="ad-success" style="display:none;text-align:center;padding:10px 0">
-          <p style="font-family:var(--serif);font-weight:600;font-size:1.3rem;color:var(--ink);letter-spacing:-.01em;margin:20px 0 0">Your phone is ringing! Answer and talk to Emily like a real customer would &mdash; ask about storm damage, pricing, or anything else.</p>
+        <div id="ad-success" class="demo-success" style="display:none">
+          <div class="ring"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#33684f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Your phone is ringing!</h3>
+          <p>Answer and talk to Emily like a real customer would &mdash; ask about storm damage, pricing, or anything else.</p>
         </div>
       </div>
     </div>
@@ -110,9 +146,15 @@
   var successEl = document.getElementById('ad-success');
   var DEFAULT_LABEL = submitLabel.textContent;
 
-  function showError(msg) {
+  [nameEl, phoneEl].forEach(function (el) {
+    el.addEventListener('input', function () { el.classList.remove('err'); });
+  });
+
+  function showError(msg, invalidEls) {
     errorEl.textContent = msg;
-    errorEl.style.display = 'block';
+    errorEl.style.display = 'flex';
+    (invalidEls || []).forEach(function (el) { el.classList.add('err'); });
+    if (invalidEls && invalidEls[0]) invalidEls[0].focus();
   }
   function clearError() {
     errorEl.style.display = 'none';
@@ -120,8 +162,6 @@
   }
   function setLoading(loading) {
     submitBtn.disabled = loading;
-    submitBtn.style.opacity = loading ? '.7' : '1';
-    submitBtn.style.cursor = loading ? 'default' : 'pointer';
     submitLabel.textContent = loading ? 'Calling you now...' : DEFAULT_LABEL;
   }
 
@@ -132,9 +172,12 @@
     var name = nameEl.value.trim();
     var company = companyEl.value.trim();
     var phone = phoneEl.value.trim();
+    var missing = [];
+    if (!name) missing.push(nameEl);
+    if (!phone) missing.push(phoneEl);
 
-    if (!name || !phone) {
-      showError('Please fill in your name and phone number.');
+    if (missing.length) {
+      showError('Please fill in your name and phone number.', missing);
       return;
     }
 
@@ -151,7 +194,7 @@
         successEl.style.display = 'block';
       })
       .catch(function () {
-        showError('We could not reach your number. Double-check it and try again.');
+        showError('We could not reach your number. Double-check it and try again.', [phoneEl]);
         setLoading(false);
       });
   });
