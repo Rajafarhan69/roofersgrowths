@@ -26,7 +26,7 @@ Each of the 7 existing service pages is a pillar. Blog posts are cluster content
 - Storm-season PPC: adjusting bids around weather events
 
 ### Pillar: roofing-website-design/
-- What makes a roofing website convert vs. just look good
+- ✅ What makes a roofing website convert vs. just look good — published 2026-09-06
 - Roofing website speed and mobile UX — why the driveway moment matters
 - Before/after: rebuilding a slow roofing site (tie to a real case study if available)
 

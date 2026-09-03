@@ -190,3 +190,20 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates
 - Location pages (Phase 3) — good time to start now that pillar depth is solid
+
+---
+
+## 2026-09-06 — Ninth blog post: all 7 service pillars now have supporting content
+
+**Completed:**
+1. Published **"What makes a roofing website convert vs. just look good"** at `/blog/what-makes-a-roofing-website-convert/` — last of the 7 service pillars to get supporting content. Covers speed as a conversion feature, real proof vs. stock imagery, single clear CTA, mobile-first design, and fix-vs-rebuild guidance, expanding on the pillar's existing card copy without duplicating it.
+2. Linked from the pillar's "fix vs. rebuild" FAQ and the blog hub.
+3. Validated all 96 JSON-LD blocks sitewide, verified live: 200 status, correct H1, link resolves, sitemap entry live.
+
+**Milestone: all 7 service pillars now have at least one supporting blog post.** Phase 2 (pillar depth) content goal is complete. Per the roadmap, next phase is location pages (Phase 3) — see `02-location-strategy.md` for the Tier 1 priority order (Houston → DFW → Miami → Tampa/Orlando).
+
+**Not yet done (top of backlog for next session):**
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates (verified 2026-08-21 — well over two weeks now, worth a real check next session if GSC access becomes available)
+- Location pages (Phase 3) — recommended next major initiative, pillar depth is done
+- Consider a second blog post under a high-value pillar (roofing-marketing-agency or roofing-lead-generation, the two primary keywords) now that every pillar has first coverage, per the "publish 2-4 a month" cadence in the roadmap
