@@ -20,5 +20,6 @@ Living tracker. Update `Current Position` / `Impressions` / `Clicks` / `CTR` fro
 | google business profile checklist roofing | Informational | /blog/google-business-profile-checklist-for-roofers/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-02) | roofing-local-seo FAQ, blog hub |
 | how does chatgpt recommend roofers | Informational / GEO | /blog/how-chatgpt-and-google-ai-overviews-recommend-roofers/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-04) | roofing-ai-search-optimization FAQ, blog hub |
 | roofing website that converts | Informational | /blog/what-makes-a-roofing-website-convert/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-06) | roofing-website-design FAQ, blog hub |
+| roofing marketing agency houston | Commercial / local | /roofing-marketing-agency-houston/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-08) | roofing-marketing-agency pillar |
 
 **Update cadence:** whenever a "Do today's tasks" session touches a page, update its row. Once GSC is verified, backfill real position/impression/click/CTR data instead of leaving dashes.

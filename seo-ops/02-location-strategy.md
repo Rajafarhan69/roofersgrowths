@@ -3,7 +3,7 @@
 ## Priority order (build in this order, one at a time, only when each is genuinely differentiated)
 
 **Tier 1 — highest storm-driven demand, build first:**
-1. Houston, TX
+1. ✅ Houston, TX — published 2026-09-08 at `/roofing-marketing-agency-houston/`
 2. Dallas-Fort Worth, TX
 3. Miami / South Florida
 4. Tampa / Orlando, FL

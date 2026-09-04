@@ -207,3 +207,20 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - First real GSC query/impression pull once data accumulates (verified 2026-08-21 — well over two weeks now, worth a real check next session if GSC access becomes available)
 - Location pages (Phase 3) — recommended next major initiative, pillar depth is done
 - Consider a second blog post under a high-value pillar (roofing-marketing-agency or roofing-lead-generation, the two primary keywords) now that every pillar has first coverage, per the "publish 2-4 a month" cadence in the roadmap
+
+---
+
+## 2026-09-08 — Phase 3 started: first location page (Houston)
+
+**Completed:**
+1. Published `/roofing-marketing-agency-houston/` — the first Tier 1 location page. Passed the non-negotiable differentiation checklist from `02-location-strategy.md`: real market driver (hail + insurance-restoration, not retail-cycle), realistic competitive density (national franchises + established locals, more expensive/slower than a smaller metro), local search behavior (reactive spikes after storms vs. steady browsing), GBP proximity strategy specific to Houston's sprawl, and insurance-specific paid-media guidance. City-scoped `Service` schema (`areaServed: Houston, TX`) and its own FAQPage, not reused from the national pillar.
+2. Deliberately did not fabricate Houston-specific case-study proof — none of the 5 published case studies are Houston companies, so the page links to `/case-studies/` generally rather than implying local results that do not exist.
+3. Linked from the roofing-marketing-agency pillar's existing weather-driven-demand paragraph, a natural fit rather than a forced insertion.
+4. Did not add a "Locations" nav entry or hub page yet — one city does not warrant a structural nav change; revisit once 2-3 more Tier 1 cities are live.
+5. Validated all 100 JSON-LD blocks sitewide, verified live: 200 status, correct H1, link resolves, sitemap entry live.
+
+**Not yet done (top of backlog for next session):**
+- Next Tier 1 location page: Dallas-Fort Worth, TX (per `02-location-strategy.md` priority order)
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates
+- Consider a "Locations" hub/nav entry once 2-3 more cities are live
