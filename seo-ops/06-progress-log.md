@@ -224,3 +224,19 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates
 - Consider a "Locations" hub/nav entry once 2-3 more cities are live
+
+---
+
+## 2026-09-10 — Second location page (Dallas-Fort Worth)
+
+**Completed:**
+1. Published `/roofing-marketing-agency-dallas/` — second Tier 1 location page. Made genuinely distinct from Houston, not a city-name swap: DFW's driver is hail frequency specifically (one of the most hail-active corridors in the US) rather than Houston's hurricane/insurance mix; the dominant competitive threat is traveling storm-chaser crews rather than established local rivals; demand is swath-specific to individual storm tracks rather than metro-wide; GBP and paid-media guidance follow from that (narrow post-storm targeting, same-day ad activation to compete with chasers).
+2. **Caught and fixed my own error before shipping:** the FAQPage schema's `@context` was written as `"schema.org"` instead of `"https://schema.org"` — a real typo that would have made that block invalid structured data. Caught it by grepping for the exact string before running the sitewide JSON-LD validator, fixed it, then re-validated clean across all 104 blocks.
+3. Linked from the roofing-marketing-agency pillar (now mentions both Houston and Dallas-Fort Worth). Did not force a cross-link between the two city pages themselves — the pillar page already serves as their natural hub.
+4. Verified live: 200 status, correct H1, link resolves, sitemap entry live, schema fix confirmed live.
+
+**Not yet done (top of backlog for next session):**
+- Next Tier 1 location page: Miami / South Florida (per `02-location-strategy.md` priority order)
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates (now three weeks since verification)
+- Consider a "Locations" hub/nav entry now that 2 cities are live — still borderline, maybe wait for a 3rd
