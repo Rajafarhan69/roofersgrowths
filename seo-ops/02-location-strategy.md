@@ -5,7 +5,7 @@
 **Tier 1 — highest storm-driven demand, build first:**
 1. ✅ Houston, TX — published 2026-09-08 at `/roofing-marketing-agency-houston/`
 2. ✅ Dallas-Fort Worth, TX — published 2026-09-10 at `/roofing-marketing-agency-dallas/`
-3. Miami / South Florida
+3. ✅ Miami, FL — published 2026-09-12 at `/roofing-marketing-agency-miami/`
 4. Tampa / Orlando, FL
 
 **Tier 2 — hail belt, strong secondary:**

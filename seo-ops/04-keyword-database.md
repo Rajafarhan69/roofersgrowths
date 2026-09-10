@@ -22,5 +22,6 @@ Living tracker. Update `Current Position` / `Impressions` / `Clicks` / `CTR` fro
 | roofing website that converts | Informational | /blog/what-makes-a-roofing-website-convert/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-06) | roofing-website-design FAQ, blog hub |
 | roofing marketing agency houston | Commercial / local | /roofing-marketing-agency-houston/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-08) | roofing-marketing-agency pillar |
 | roofing marketing agency dallas | Commercial / local | /roofing-marketing-agency-dallas/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-10) | roofing-marketing-agency pillar |
+| roofing marketing agency miami | Commercial / local | /roofing-marketing-agency-miami/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-12) | roofing-marketing-agency pillar |
 
 **Update cadence:** whenever a "Do today's tasks" session touches a page, update its row. Once GSC is verified, backfill real position/impression/click/CTR data instead of leaving dashes.

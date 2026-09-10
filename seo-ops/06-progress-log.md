@@ -240,3 +240,21 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates (now three weeks since verification)
 - Consider a "Locations" hub/nav entry now that 2 cities are live — still borderline, maybe wait for a 3rd
+
+---
+
+## 2026-09-12 — Third location page (Miami) — all 3 Tier 1 cities now live
+
+**Completed:**
+1. Published `/roofing-marketing-agency-miami/` — third and final Tier 1 location page. Genuinely distinct from both Texas pages: hurricane wind on a predictable seasonal calendar (allowing pre-season marketing, unlike hail's total unpredictability), Florida's insurance crisis forcing roof-age replacements independent of storm damage, tile roofing's effect on ticket size and sales conversation, and a bilingual-market requirement neither Texas page needed.
+2. **Caught and fixed another self-introduced bug before shipping:** a stray `</summary>` HTML closing tag had leaked into the FAQ schema's question name (`"Does a Miami roofing company need bilingual marketing?</summary>"`), which would have been invalid structured data. Caught via targeted grep before running the validator, fixed, re-validated clean across all 108 blocks. This is the second such schema-typo catch in three location pages — worth double-checking schema strings specifically (not just running the JSON validator) on every future page, since a stray tag can sit inside a syntactically-valid JSON string and not trip a parser.
+3. Linked from the roofing-marketing-agency pillar (now references all three cities).
+4. Verified live: 200 status, correct H1, link resolves, sitemap entry live, schema fix confirmed live.
+
+**Milestone: all 3 Tier 1 location pages (Houston, Dallas-Fort Worth, Miami) are now live.** Per `02-location-strategy.md`, next up is Tier 2 (Kansas City, Oklahoma City, Denver) — but this is also the point where a "Locations" nav/hub entry becomes reasonable to consider, since there are now enough cities to justify one.
+
+**Not yet done (top of backlog for next session):**
+- Decide on a "Locations" hub page and/or nav entry now that 3 cities exist
+- Next candidate: first Tier 2 location page (Kansas City, MO/KS) per the roadmap, or a "Locations" hub first
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates (over three weeks since verification now)
