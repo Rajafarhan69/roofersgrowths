@@ -23,5 +23,6 @@ Living tracker. Update `Current Position` / `Impressions` / `Clicks` / `CTR` fro
 | roofing marketing agency houston | Commercial / local | /roofing-marketing-agency-houston/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-08) | roofing-marketing-agency pillar |
 | roofing marketing agency dallas | Commercial / local | /roofing-marketing-agency-dallas/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-10) | roofing-marketing-agency pillar |
 | roofing marketing agency miami | Commercial / local | /roofing-marketing-agency-miami/ | Not yet tracked | Top 10 | — | — | — | Live (published 2026-09-12) | roofing-marketing-agency pillar |
+| roofing marketing by location (hub) | Navigational | /locations/ | Not yet tracked | N/A (hub) | — | — | — | Live (published 2026-09-15) | Sitewide nav, roofing-marketing-agency pillar |
 
 **Update cadence:** whenever a "Do today's tasks" session touches a page, update its row. Once GSC is verified, backfill real position/impression/click/CTR data instead of leaving dashes.

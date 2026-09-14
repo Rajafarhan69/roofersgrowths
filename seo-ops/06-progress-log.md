@@ -258,3 +258,18 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Next candidate: first Tier 2 location page (Kansas City, MO/KS) per the roadmap, or a "Locations" hub first
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates (over three weeks since verification now)
+
+---
+
+## 2026-09-15 — Locations hub page + sitewide nav entry
+
+**Completed:**
+1. Published `/locations/` — a hub page listing all 3 Tier 1 city pages with genuine one-line summaries of each market's distinct driver (not generic filler), linking through to the full pages.
+2. Added "Locations" to the header nav on all 38 pages, right after Services, via a scripted sitewide edit anchored on the Services→Tools nav concatenation (handles both the plain and `aria-current="page"` variants correctly).
+3. **Deliberately did not add a matching footer column.** Checked `.f-grid` CSS first — it's a fixed 4-column grid (`1.6fr 1fr 1fr 1fr`), not an auto-fit layout. Adding a 5th column would have broken visual consistency between this page and the other 37 with a 4-column footer, so discoverability relies on nav + the hub page + the existing pillar-page link instead.
+4. Validated all 110 JSON-LD blocks sitewide, verified live: 200 status, correct H1, nav link confirmed on both the homepage and a location page, sitemap entry live.
+
+**Not yet done (top of backlog for next session):**
+- Next Tier 2 location page: Kansas City, MO/KS (per `02-location-strategy.md` priority order)
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates (nearly four weeks since verification now — this is becoming the single most overdue item in the backlog)
