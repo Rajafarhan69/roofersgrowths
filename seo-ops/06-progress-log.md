@@ -288,3 +288,18 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Next Tier 2 location page: Oklahoma City, OK, or Denver, CO (per `02-location-strategy.md` priority order)
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates — now the single most overdue backlog item, approaching a month since verification with zero query data reviewed
+
+---
+
+## 2026-09-19 — Sixth location page (Oklahoma City)
+
+**Completed:**
+1. Published `/roofing-marketing-agency-oklahoma-city/` — second Tier 2 city. Deliberately chose a new angle instead of repeating storm-chaser or hail-frequency framing already used for DFW and Kansas City: OKC's real differentiator is tornado-driven catastrophic loss, which is an emergency-response sales motion (same-day tarping, then a much larger rebuild claim alongside a public adjuster) rather than a routine hail-inspection funnel. Also covers Oklahoma's well-documented rapid homeowners-insurance premium increases tied to severe weather losses.
+2. **Caught the same `</summary>` schema-leak bug a third time**, in the exact same spot (a `Question.name` field) as the last two location pages. Fixed it before shipping, then ran a proper sitewide grep for both known bug patterns (leaked closing tags in schema `name` fields, and `@context` missing `https://`) across all 40 files, not just the new page — zero hits confirmed. This 3-for-3 recurrence means the mistake is systematic (writing the visible FAQ HTML and the schema JSON from the same mental draft, copy-pasting a fragment across), not a one-off typo. **Going forward, the sitewide grep for both patterns is now a standing step before every JSON-LD validation, not just a spot-check on the new file.**
+3. Linked from the pillar page and added to `/locations/` — now 5 cities total: Houston, Dallas-Fort Worth, Miami, Kansas City, Oklahoma City.
+4. Deploy succeeded on the first attempt this time (no transient timeout). Verified live: 200 status, correct H1, all links resolve, sitemap entry live, schema fix confirmed live.
+
+**Not yet done (top of backlog for next session):**
+- Next Tier 2 location page: Denver, CO (per `02-location-strategy.md` priority order) — this closes out the originally-planned Tier 2 list
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates — still the single most overdue backlog item, now approaching a month since verification
