@@ -9,7 +9,7 @@
 4. Tampa / Orlando, FL
 
 **Tier 2 — hail belt, strong secondary:**
-5. Kansas City, MO/KS
+5. ✅ Kansas City, MO/KS — published 2026-09-18 at `/roofing-marketing-agency-kansas-city/`
 6. Oklahoma City, OK
 7. Denver, CO
 

@@ -273,3 +273,18 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Next Tier 2 location page: Kansas City, MO/KS (per `02-location-strategy.md` priority order)
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates (nearly four weeks since verification now — this is becoming the single most overdue item in the backlog)
+
+---
+
+## 2026-09-18 — Fifth location page (Kansas City, first Tier 2 city)
+
+**Completed:**
+1. Published `/roofing-marketing-agency-kansas-city/` — first Tier 2 location page. Deliberately avoided repeating "another hail market" angle already covered by DFW: KC's real distinguishing features are that it's the only bi-state metro covered (different MO/KS contractor licensing rules, a genuine GBP-proximity wrinkle that follows from it), storms bring hail and wind/tornado damage together rather than hail alone, the severe-weather season is narrowly spring-loaded (April-June) rather than near year-round or a six-month hurricane window, and the market is meaningfully less saturated than the three Tier 1 metros. Real stats cited (Missouri #2 nationally in 2025 hail claim payouts per State Farm, $879M Kansas severe storm claims per the Kansas Insurance Department) were already sourced in `01-keyword-research.md` from the original research pass, not invented fresh.
+2. Checked specifically for the two schema-typo patterns that bit the last two location pages (stray HTML tags leaked into a `name` field, and a `@context` missing `https://`) before running the validator — this page had neither.
+3. Linked from the roofing-marketing-agency pillar (now references all 4 cities) and added as a fourth card on `/locations/`.
+4. Deploy hit the same transient SSH timeout seen a few times before; retried via `workflow_dispatch` and it succeeded in 10s. Verified live: 200 status, correct H1, both links resolve, sitemap entry live.
+
+**Not yet done (top of backlog for next session):**
+- Next Tier 2 location page: Oklahoma City, OK, or Denver, CO (per `02-location-strategy.md` priority order)
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates — now the single most overdue backlog item, approaching a month since verification with zero query data reviewed
