@@ -11,7 +11,7 @@
 **Tier 2 — hail belt, strong secondary:**
 5. ✅ Kansas City, MO/KS — published 2026-09-18 at `/roofing-marketing-agency-kansas-city/`
 6. ✅ Oklahoma City, OK — published 2026-09-19 at `/roofing-marketing-agency-oklahoma-city/`
-7. Denver, CO
+7. ✅ Denver, CO — published 2026-09-20 at `/roofing-marketing-agency-denver/`
 
 **Tier 3 — growth markets, build once Tier 1-2 are proven:**
 8. Atlanta, GA

@@ -303,3 +303,20 @@ Not part of "Do today's tasks" — a direct feature request. Logged here for con
 - Next Tier 2 location page: Denver, CO (per `02-location-strategy.md` priority order) — this closes out the originally-planned Tier 2 list
 - Rich Results Test spot-check (user action)
 - First real GSC query/impression pull once data accumulates — still the single most overdue backlog item, now approaching a month since verification
+
+---
+
+## 2026-09-20 — Seventh location page (Denver) — Tier 2 list complete
+
+**Completed:**
+1. Published `/roofing-marketing-agency-denver/` — third Tier 2 city, closing out the originally-planned Tier 2 list (Kansas City, Oklahoma City, Denver). Genuinely distinct angle from the hail-heavy pages already live: Colorado insurers discount premiums for Class 4 impact-resistant shingles (a savings pitch, not just a repair pitch), a large share of Denver growth sits in HOA-governed suburbs with approved material/color lists that need to enter the sales process upfront, and Colorado has its own consumer-protection law specific to storm-related roofing contracts.
+2. Ran the now-standing sitewide scan for both recurring schema bugs (leaked HTML tags in `name` fields, `@context` missing `https://`, including space-variant patterns) before validating — first location page in three attempts with zero hits.
+3. Linked from the pillar page (now 6 cities) and added to `/locations/`.
+4. Deploy succeeded on the first attempt. Verified live: 200 status, correct H1, all links resolve, sitemap entry live.
+
+**Milestone: both the Tier 1 (Houston, Dallas-Fort Worth, Miami) and Tier 2 (Kansas City, Oklahoma City, Denver) location lists from `02-location-strategy.md` are now fully built — 6 city pages total, none templated, each with a genuinely different market driver.**
+
+**Not yet done (top of backlog for next session):**
+- Location strategy has no Tier 3 list defined yet — next session should either extend `02-location-strategy.md` with new candidate markets (using the same real-driver research standard as the first 6) or shift focus away from location pages toward other roadmap items for a while
+- Rich Results Test spot-check (user action)
+- First real GSC query/impression pull once data accumulates — still the single most overdue backlog item, now over a month since verification with zero query data ever reviewed
